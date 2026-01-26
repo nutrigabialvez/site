@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gabriela Alves | Nutricionista</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: white;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .container {
+      background: white;
+      border-radius: 20px;
+      padding: 40px 30px;
+      max-width: 500px;
+      width: 100%;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    }
+
+    .profile-section {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .profile-photo {
+      width: 320px;
+      height: 320px;
+      border-radius: 50%;
+      object-fit: contain;
+      border: 5px solid white;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      color: #333;
+      font-size: 24px;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      color: #5AAB9E;
+      font-family: ;
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    .bio {
+      color: #666;
+      font-size: 14px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 30px;
+    }
+
+    .social-icon {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      color: white;
+      text-decoration: none;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .social-icon:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .instagram {
+      background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    }
+
+    .whatsapp {
+      background: #25D366;
+    }
+
+    .email {
+      background: #EA4335;
+    }
+
+    .youtube {
+      background: #FF0000;
+    }
+
+    .tiktok {
+      background: #000000;
+    }
+
+    .linkedin {
+      background: #0077B5;
+    }
+
+    .links-section {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-bottom: 30px;
+    }
+
+    .link-button {
+      background: white;
+      border: 2px solid #5AAB9E;
+      color: #5AAB9E;
+      padding: 15px 20px;
+      border-radius: 12px;
+      text-decoration: none;
+      text-align: center;
+      font-weight: 600;
+      transition: all 0.3s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .link-button:hover {
+      background: #5AAB9E;
+      color: white;
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(90, 171, 158, 0.4);
+    }
+
+    .link-button i {
+      font-size: 18px;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 30px;
+      color: #999;
+      font-size: 12px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="profile-section">
+      <!-- Replace with your photo URL -->
+      <img src="media/perfil_sem_fundo.png" alt="Foto de Perfil" class="profile-photo">
+      <h1>Gabriela Alves</h1>
+      <p class="subtitle">Nutricionista</p>
+      <p class="bio">
+        Nutricionista focada em resultado. Ajudo você conquistar emagrecimento saudável, hipertrofia,
+        performance esportiva e saúde intestinal com planos práticos e personalizados!
+      </p>
+    </div>
+    
+    <div class="links-section">
+      <a href="#" class="link-button">
+        <i class="fas fa-calendar-check"></i>
+        Agendar Consulta
+      </a>
+      <a href="#" class="link-button">
+        <i class="fas fa-book"></i>
+        E-book Gratuito
+      </a>
+
+      <!--<a href="#" class="link-button">
+            <i class="fas fa-book"></i>
+            E-book Gratuito
+        </a>
+        
+        <a href="#" class="link-button">
+            <i class="fas fa-utensils"></i>
+            Plano Alimentar Personalizado
+        </a>
+        
+        <a href="#" class="link-button">
+            <i class="fas fa-video"></i>
+            Curso Online
+        </a>
+        
+        <a href="#" class="link-button">
+            <i class="fas fa-comments"></i>
+            Grupo VIP WhatsApp
+        </a>
+        
+        <a href="#" class="link-button">
+            <i class="fas fa-blog"></i>
+            Blog com Receitas
+        </a>-->
+    </div>
+
+    <div class="social-links">
+      <a href="https://wa.me/5531986851070" class="social-icon whatsapp" target="_blank">
+                      <i class="fab fa-whatsapp"></i>
+      </a>
+      <a href="https://instagram.com/nutrigabialvez" class="social-icon instagram" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://tiktok.com/@nutrigabialvez" class="social-icon tiktok" target="_blank">
+        <i class="fab fa-tiktok"></i>
+      </a>
+
+      <a href="mailto:gabrielaalveznutri@gmail.com" class="social-icon email" target="_blank">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <!--<a href="https://youtube.com/@seucanal" class="social-icon youtube" target="_blank">
+                <i class="fab fa-youtube"></i>
+            </a>-->
+
+    </div>
+
+    <div class="footer">
+      <p>© 2026 - Todos os direitos reservados</p>
+    </div>
+  </div>
+</body>
+
+</html>
